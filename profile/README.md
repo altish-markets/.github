@@ -1,6 +1,11 @@
-# Altworth
+<div align="center">
+  <img src="./logo.svg" alt="Altworth" width="200" />
+  <br />
+  <br />
+  <strong>Live shopping platform with RWA tokenization and Gachapon gamification on Solana blockchain</strong>
+</div>
 
-**Live shopping platform with RWA tokenization and Gachapon gamification on Solana blockchain**
+---
 
 ## About
 
@@ -84,3 +89,9 @@ Visit our [frontend repository](https://github.com/altworth-markets/front-end) f
 ## Contributing
 
 This is a private organization. If you're a team member, check individual repository READMEs for contribution guidelines and development setup.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ on Solana blockchain</sub>
+</div>
