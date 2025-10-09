@@ -1,10 +1,16 @@
-# Altworth Trading Card Game Platform
+# Altworth
 
-**Web3-powered digital trading card game platform built on Solana blockchain**
+**Live shopping platform with RWA tokenization and Gachapon gamification on Solana blockchain**
 
 ## About
 
-Altworth is a modern trading card game platform that combines traditional TCG gameplay with Web3 technology. Players can purchase card packs, reveal NFT cards, and engage in a dynamic marketplace powered by the Solana blockchain.
+Altworth is a next-generation live shopping platform that combines real-world asset (RWA) tokenization with engaging Gachapon-style gamification. Built on the Solana blockchain, the platform enables users to purchase tokenized assets through an interactive, game-like experience powered by Web3 technology.
+
+### Core Focus Areas
+
+- **Live Shopping**: Interactive shopping experience with real-time engagement
+- **RWA Tokenization**: Real-world assets represented as NFTs on Solana
+- **Gachapon Gamification**: Japanese capsule-toy inspired mechanics for an engaging purchase experience
 
 ## Architecture
 
@@ -13,11 +19,11 @@ Our platform is built with a microservices architecture:
 - **[Frontend](https://github.com/altworth-markets/front-end)** - Next.js application with Web3 integration
   - **Live Demo**: [altworth.netlify.app](https://altworth.netlify.app)
   - Stack: Next.js 15, TypeScript, Tailwind CSS, Solana Web3.js
-  - Features: Wallet integration, pack purchase, NFT claiming, admin dashboard
+  - Features: Wallet integration, Gachapon capsule purchase, NFT claiming, admin dashboard
 
 - **[Backend](https://github.com/altworth-markets/backend)** - RESTful API server
   - Stack: Bun runtime, Hono framework, PostgreSQL
-  - Features: Card management, pack operations, buyback pricing, transaction tracking
+  - Features: Item/RWA management, capsule operations, buyback pricing, transaction tracking
 
 - **[SDK](https://github.com/altworth-markets/sdk)** - TypeScript SDK for platform integration
   - Packages: `@altworth-markets/sdk-core`, `sdk-react`, `sdk-solana`, `sdk-types`
@@ -26,7 +32,7 @@ Our platform is built with a microservices architecture:
 
 - **[Contracts](https://github.com/altworth-markets/contracts)** - Solana smart contracts
   - Stack: Anchor framework, Rust
-  - Features: NFT minting, pack mechanics, marketplace operations
+  - Features: NFT minting, Gachapon mechanics, marketplace operations
 
 ## Tech Stack
 
@@ -53,6 +59,13 @@ Our platform is built with a microservices architecture:
 - GitHub Actions for CI/CD
 - Docker for local development
 - GitHub Packages for private SDK distribution
+
+## How It Works
+
+1. **Admin Setup**: Platform administrators add tokenized RWAs/NFTs and create Gachapon capsules
+2. **User Experience**: Users connect their Web3 wallet and purchase Gachapon capsules using cryptocurrency
+3. **Reveal & Claim**: Gamified reveal experience shows the tokenized assets, users can claim NFTs or sell back to platform
+4. **Live Shopping**: Real-time, interactive shopping experience with blockchain transparency
 
 ## Security & Best Practices
 
